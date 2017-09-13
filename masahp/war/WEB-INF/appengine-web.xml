@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+	<application>hilo-sendai-tours-hp</application>
+	<version>1</version>
+
+	<precompilation-enabled>true</precompilation-enabled>
+
+	<system-properties>
+	    <property name="slim3.hotReloading" value="true"/>
+	    <!--
+        <property name="slim3.datastoreDeadline" value="8"/>
+        <property name="slim3.uploadSizeMax" value="1000000"/>
+        <property name="slim3.uploadFileSizeMax" value="100000"/>
+        -->
+        <property name="oauth2.clientId" value="212189665914-0dv21jnbbl8vhcmehvivi080qg4b5ugj.apps.googleusercontent.com"/>
+	    <property name="oauth2.clientSecret" value="_VMwTUvLq00uI8DQBmZL51mf"/>
+	    <property name="java.util.logging.config.file" value="WEB-INF/classes/logging.properties"/>
+	</system-properties>
+	<sessions-enabled>false</sessions-enabled>
+	<threadsafe>true</threadsafe>
+</appengine-web-app>
